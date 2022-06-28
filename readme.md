@@ -1,21 +1,23 @@
-# Ping CRM
+# Project Ping CRM
 
 A demo application to illustrate how Inertia.js works.
 
-![](https://raw.githubusercontent.com/inertiajs/pingcrm/master/screenshot.png)
+Dockerized Version
 
 ## Installation
 
-Clone the repo locally:
+Docker:
 
 ```sh
-git clone https://github.com/inertiajs/pingcrm.git pingcrm
-cd pingcrm
+docker-compose build
+docker-compose up -d
 ```
+
 
 Install PHP dependencies:
 
 ```sh
+docker exec -it project_app bashc
 composer install
 ```
 
@@ -31,22 +33,10 @@ Build assets:
 npm run dev
 ```
 
-Setup configuration:
-
-```sh
-cp .env.example .env
-```
-
 Generate application key:
 
 ```sh
 php artisan key:generate
-```
-
-Create an SQLite database. You can also use another database (MySQL, Postgres), simply update your configuration accordingly.
-
-```sh
-touch database/database.sqlite
 ```
 
 Run database migrations:

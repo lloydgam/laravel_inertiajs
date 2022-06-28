@@ -1,6 +1,8 @@
 # Project Ping CRM
 
 A demo application to illustrate how Inertia.js works.
+Building Application both Backend and Frontend without creating API.
+Lazy Version of SPAs
 
 Dockerized Version
 

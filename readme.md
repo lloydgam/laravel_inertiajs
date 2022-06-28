@@ -1,4 +1,4 @@
-# Project Ping CRM
+# Project Sample CRM No API SPA
 
 A demo application to illustrate how Inertia.js works.
 Building Application both Backend and Frontend without creating API.

@@ -71,3 +71,11 @@ To run the Ping CRM tests, run:
 ```
 phpunit
 ```
+
+## Running PHPMYADMIN
+
+To run the Ping CRM tests, run:
+
+```
+http://127.0.0.1:8080/
+```
